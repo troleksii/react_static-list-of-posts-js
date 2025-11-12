@@ -10,7 +10,7 @@ export const PostInfo = ({ post }) => (
       <p>
         {' Posted by  '}
 
-        {post.user === null ? ("User does not exist anymore") : (<UserInfo user={post.user}/>)}
+        <UserInfo user={post.user} />
       </p>
     </div>
 
