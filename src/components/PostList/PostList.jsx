@@ -1,5 +1,5 @@
-import { PostInfo } from "../PostInfo";
-import './PostList.scss'
+import { PostInfo } from '../PostInfo';
+import './PostList.scss';
 
 export const PostList = ({ posts }) => (
   <div className="PostList">
@@ -8,5 +8,3 @@ export const PostList = ({ posts }) => (
     ))}
   </div>
 );
-
-
